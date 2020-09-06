@@ -1,0 +1,44 @@
+/**
+ * HospitalSystem - style.css
+ * @author Nathan Snyder
+ * 
+ * Stylesheet for the Login screen
+ */
+
+#logInScreen {
+	-fx-background-color: paleturquoise;
+}
+
+*:not(#logInLabel):not(button) {
+	-fx-alignment: center-left;
+	-fx-text-alignment: left;
+	-fx-font-size: 14px;
+}
+
+#logInLabel, button {
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+}
+
+#logInLabel {
+	-fx-font-size: 40px;
+	-fx-font-weight: bold;
+}
+
+#goButton {
+	-fx-font-size: 28px;
+	-fx-padding: 0;
+}
+
+#forgotPasswordButton {
+  -fx-background-color: none!important;
+  -fx-border-width: 0!important;
+  -fx-padding: 0!important;
+  -fx-label-padding: 0!important;
+  -fx-text-fill: blue;
+  -fx-underline: true;
+}
+
+#logInStatusLabel {
+	-fx-wrap-text: true;
+}
